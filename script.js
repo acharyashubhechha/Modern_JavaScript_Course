@@ -266,7 +266,7 @@ if(scoreDolpins > scoreKolas && scoreDolpins >= 100){
 }else{
     console.log("No one wins the tropy!")
 }
-    */
+    
 
 ////  SWITCH STATEMENT  
 const day = 'tuesday';
@@ -309,3 +309,18 @@ if ( day === 'monday'){
 }else{
     console.log("Not valid day")
 }
+
+
+/////TERNARY OPERATOR
+const age = 23;
+age >=18 ? console.log("I like to drink Wine🍷") : console.log("I want to drink Water");
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+*/
+///// CHALLENGE 4//////
+const bill = 230;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
